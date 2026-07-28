@@ -1,6 +1,6 @@
-##Customer Churn Analysis & Prediction
+## Customer Churn Analysis & Prediction
  
-##Project Overview
+## Project Overview
 
 Customer churn is one of the biggest challenges faced by subscription-based businesses. This project analyzes customer behavior, identifies factors contributing to churn, and develops predictive insights to help businesses improve customer retention.
 
