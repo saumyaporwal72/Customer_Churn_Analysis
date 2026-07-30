@@ -45,3 +45,12 @@ The dataset contains customer information including:
 - Additional Services
 - Payment Methods
 - Churn Status
+
+## Exploratory Data Analysis (EDA)
+
+The Exploratory Data Analysis (EDA) phase was conducted to understand the characteristics of the dataset, identify patterns, detect anomalies, and uncover the key factors influencing customer churn. The analysis is divided into Univariate, Bivariate, and Multivariate Analysis.
+
+The EDA phase focuses on understanding customer behavior, identifying churn patterns, and uncovering relationships between customer demographics, services, and churn.
+
+
+### Univariate Analysis
