@@ -6,7 +6,7 @@ Customer churn is one of the biggest challenges faced by subscription-based busi
 
 The analysis combines data cleaning, exploratory data analysis (EDA), feature engineering, SQL analysis, and Power BI dashboarding to uncover patterns behind customer attrition and provide actionable business recommendations.
 
-##Business Objective
+## Business Objective
 
 The primary goals of this project are:
 
@@ -17,7 +17,7 @@ Discover high-risk customer segments.
 Provide data-driven recommendations to improve retention.
 Build interactive dashboards for business stakeholders.
 
-##🛠️ Tools & Technologies
+## Tools & Technologies
 -Python
 Pandas
 NumPy
