@@ -60,6 +60,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 
 > ### 💡 Business Insight
+> -- The company retains 77.5% of its customers; however, the 22.5% churn rate equates to 133,817 lost customers, highlighting a meaningful opportunity to    improve retention and protect recurring revenue.
 >
 > - 🟢 **Retention Rate:** **77.5%**
 > - 🔴 **Churn Rate:** **22.5%**
