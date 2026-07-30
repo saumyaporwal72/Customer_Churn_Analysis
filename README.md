@@ -19,20 +19,20 @@ The primary goals of this project are:
 
 ## Tools & Technologies
 - Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
--SQL
-Data extraction
-Aggregation
-Customer segmentation
--Power BI
+1- Pandas
+2-NumPy
+3-Matplotlib
+4-Seaborn
+- SQL
+1-Data extraction
+2-Aggregation
+3-Customer segmentation
+- Power BI
 Interactive dashboards
 KPI tracking
 Churn visualization
 
-##Dataset Description
+## Dataset Description
 
 The dataset contains customer information including:
 
