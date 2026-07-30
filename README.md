@@ -85,3 +85,11 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 > ### 💡 Business Insight
 > The average monthly charge ($66) is lower than the median ($74), indicating that lower-priced plans pull the average downward while most customers actually pay around $74 per month. This suggests a customer base skewed toward medium-to-high value subscriptions, providing strong opportunities for revenue growth through targeted upselling and retention initiatives.
+
+4- Total Charges
+
+<img width="883" height="328" alt="image" src="https://github.com/user-attachments/assets/715c6905-2a94-4147-9238-92b263df2bf5" />
+> Correlation with tenure:        0.770
+> Correlation with MonthlyCharges:0.634
+> ### 💡 Business Insight
+> Customers who stay longer consistently generate higher cumulative revenue, as evidenced by the strong 0.77 correlation between tenure and Total Charges. This highlights that customer retention is not only a loyalty metric but also a key revenue driver, where extending customer relationships directly increases Customer Lifetime Value (CLV) and business profitability.
