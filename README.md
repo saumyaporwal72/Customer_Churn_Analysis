@@ -89,6 +89,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 4- Total Charges
 
 <img width="883" height="328" alt="image" src="https://github.com/user-attachments/assets/715c6905-2a94-4147-9238-92b263df2bf5" />
+>
 > - **Correlation with tenure:** **0.770**
 > - **Correlation with MonthlyCharges:****0.634**
 > ### 💡 Business Insight
