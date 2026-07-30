@@ -54,3 +54,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 
 ### Univariate Analysis
+1- Churn Distribution
+
+![Uploading image.png…]()
+
