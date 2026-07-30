@@ -73,9 +73,15 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 <img width="886" height="254" alt="image" src="https://github.com/user-attachments/assets/f697de4f-a705-4de5-a309-122d48911897" />
 
 > ### 💡 Business Insight
->Customer tenure follows a healthy lifecycle, with 48.7% of customers classified as Loyal (37+ months). Since customer churn typically occurs during the early stages of the customer journey, improving onboarding, engagement, and personalized support during the first three years can substantially enhance long-term retention.
+> Customer tenure follows a healthy lifecycle, with 48.7% of customers classified as Loyal (37+ months). Since customer churn typically occurs during the early stages of the customer journey, improving onboarding, engagement, and personalized support during the first three years can substantially enhance long-term retention.
 >
 > - **Average Tenure:** **36.6 months**
 > - **Median Tenure:** **35 months**
 > - **50% of customers stay between 12 and 62 months**
 > - **48.7% of customers have remained loyal for over 37 months**
+
+3- Monthly Charges- Price Distribution
+<img width="894" height="252" alt="image" src="https://github.com/user-attachments/assets/29e898dc-5b6c-4c1c-a8e3-b8f6fc1655ce" />
+
+> ### 💡 Business Insight
+> The average monthly charge ($66) is lower than the median ($74), indicating that lower-priced plans pull the average downward while most customers actually pay around $74 per month. This suggests a customer base skewed toward medium-to-high value subscriptions, providing strong opportunities for revenue growth through targeted upselling and retention initiatives.
