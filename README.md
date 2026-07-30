@@ -62,7 +62,20 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > ### 💡 Business Insight
 > The company retains 77.5% of its customers; however, the 22.5% churn rate equates to 133,817 lost customers, highlighting a meaningful opportunity to    improve retention and protect recurring revenue.
 >
-> - 🟢 **Retention Rate:** **77.5%**
-> - 🔴 **Churn Rate:** **22.5%**
-> - 👥 **Customers Lost:** **133,817**
-> - 💰 **Business Impact:** Nearly **1 in 4 customers** churn, representing a significant opportunity to improve customer retention and protect recurring revenue.
+> -  **Retention Rate:** **77.5%**
+> -  **Churn Rate:** **22.5%**
+> -  **Customers Lost:** **133,817**
+> -  **Business Impact:** Nearly **1 in 4 customers** churn, representing a significant opportunity to improve customer retention and protect recurring revenue.
+
+
+2- Tenure- Customer Lifecycle
+
+<img width="886" height="254" alt="image" src="https://github.com/user-attachments/assets/f697de4f-a705-4de5-a309-122d48911897" />
+
+> ### 💡 Business Insight
+>Customer tenure follows a healthy lifecycle, with 48.7% of customers classified as Loyal (37+ months). Since customer churn typically occurs during the early stages of the customer journey, improving onboarding, engagement, and personalized support during the first three years can substantially enhance long-term retention.
+>
+> - **Average Tenure:** **36.6 months**
+> - **Median Tenure:** **35 months**
+> - **50% of customers stay between 12 and 62 months**
+> - **48.7% of customers have remained loyal for over 37 months**
