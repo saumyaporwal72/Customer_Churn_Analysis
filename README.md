@@ -18,15 +18,15 @@ The primary goals of this project are:
 - Build interactive dashboards for business stakeholders.
 
 ## Tools & Technologies
-- Python
-1- Pandas
-2-NumPy
-3-Matplotlib
-4-Seaborn
-- SQL
-1-Data extraction
-2-Aggregation
-3-Customer segmentation
+- Python :
+Pandas,
+NumPy,
+Matplotlib,
+Seaborn
+- SQL:
+Data extraction
+Aggregation
+Customer segmentation
 - Power BI
 Interactive dashboards
 KPI tracking
