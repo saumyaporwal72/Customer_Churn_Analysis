@@ -58,7 +58,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 <img width="919" height="293" alt="image" src="https://github.com/user-attachments/assets/71c97a25-ba53-4e1d-a6df-e39f23608ebe" />
 
-[!IMPORTANT]
+
 > ### 💡 Business Insight
 >
 > - 🟢 **Retention Rate:** **77.5%**
