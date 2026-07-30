@@ -93,4 +93,5 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > ### 💡 Business Insight
 > - **Correlation with tenure:** **0.770**
 > - **Correlation with MonthlyCharges:** **0.634**
+
 > Customers who stay longer consistently generate higher cumulative revenue, as evidenced by the strong 0.77 correlation between tenure and Total Charges. This highlights that customer retention is not only a loyalty metric but also a key revenue driver, where extending customer relationships directly increases Customer Lifetime Value (CLV) and business profitability.
