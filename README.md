@@ -24,10 +24,10 @@ NumPy,
 Matplotlib,
 Seaborn
 - SQL:
-Data extraction
-Aggregation
-Customer segmentation
-- Power BI
+Data extraction,
+Aggregation,
+Customer segmentation,
+- Power BI :
 Interactive dashboards
 KPI tracking
 Churn visualization
