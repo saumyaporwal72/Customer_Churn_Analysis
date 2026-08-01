@@ -102,6 +102,55 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 > ### 💡 Business Insight
 > 
-> 6 bar charts in a 2×3 grid. Gender: nearly 50/50 (male 50.3%, female 49.7%). SeniorCitizen: heavily skewed — only 11.4% senior. Partner: 52.1% have a partner. Dependents: only 30.3% have dependents. PhoneService: 93.9% have phone service. PaperlessBilling: 61.5% use paperless billing
+> 6 bar charts in a 2×3 grid. Gender: nearly 50/50 (male 50.3%, female 49.7%). SeniorCitizen: heavily skewed — only 11.4% senior. Partner: 52.1% have a partner. Dependents: only 30.3% have dependents. PhoneService: 93.9% have phone service. PaperlessBilling: 61.5% use paperless billing.
+> 
 > Gender is nearly balanced — unlikely to be a strong churn predictor. (2) SeniorCitizen is imbalanced (88.6% non-senior) — we will check if bivariate analysis is statistically reliable for the 11.4% senior group. (3) Only 30% have dependents — dependents create switching friction (family plans), so this might reduce churn. (4) 93.9% phone service penetration means PhoneService binary adds little value — Service_Count is better
+
+
+6- Contract Type — Billing Category Contract (3 categories: Month-to-month, One year, Two year)
+
+<img width="878" height="394" alt="image" src="https://github.com/user-attachments/assets/af30935b-c942-4d17-8bbb-7fa28d512c85" />
+
+> ### 💡 Business Insight
+>
+> Horizontal bar: Month-to-month is by far the largest group (~50.3%), One year ~18.2%, Two year ~31.5%. Donut chart confirms the skew. Month-to-month customers dominate the dataset.
+>
+> Contract type distribution showed 50.3% of customers on month-to-month contracts — the majority in the highest-risk segment. This means even a 5% improvement in month-to-month retention impacts more than 3,500 customers. The high concentration in month-to-month made it the single most important segment to investigate in the bivariate analysis
+>
+
+7- InternetService — Service Type InternetService (3 categories: DSL, Fiber optic, No)
+
+<img width="844" height="318" alt="image" src="https://github.com/user-attachments/assets/5342d07e-4115-4872-b6fa-74caac1d222d" />
+
+
+> ### 💡 Business Insight
+> Panel 1: Fiber Optic ~45.8%, DSL ~30.5%, No Internet ~23.7%.
+> Panel 2: Fiber Optic customers pay ~92/mon, dsl~62/mo, No Internet pays ~$21/mo. The charge gap between Fiber and DSL is enormous.
+
+
+8- PaymentMethod — Billing Channel PaymentMethod (4 categories: Bank transfer auto, Credit card auto, Electronic check, Mailed check)
+
+<img width="830" height="353" alt="image" src="https://github.com/user-attachments/assets/d3205c4b-884e-4f44-a6fe-bbaf7b8d6933" />
+
+> ### 💡 Business Insight
+>
+> Panel 1: Electronic check is the LARGEST single payment method (36.2%),Bank transfer auto (20.4%),Credit card auto (22.5%),Mailed(20.8%). Panel 2: Auto vs Manual is approximately 43% auto, 57% manual. The majority of customers use manual payment methods.
+> 
+> Electronic check being the single largest payment method . 57% of customers use manual payment — this is the target population for auto-pay enrollment campaigns. If we can shift electronic check users to bank transfer auto, we expect significant churn reduction.
+
+
+9- Service Columns — Adoption Rate OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies
+
+<img width="893" height="488" alt="image" src="https://github.com/user-attachments/assets/07630416-7480-42cd-8b65-e47e89a6be58" />
+
+> ### 💡 Business Insight
+> Service Adoption Rates (% Yes):
+  OnlineSecurity      : 27.6%
+  OnlineBackup        : 34.2%
+  DeviceProtection    : 34.7%
+  TechSupport         : 27.8%
+  StreamingTV         : 40.4%
+  StreamingMovies     : 40.6%
+>
+> Service adoption rates showed all six add-ons have 25-45% adoption among internet customers — all are viable for bivariate analysis. Streaming services had the highest adoption (40.6%) while security had lower (~29%). This motivated my Service_Count feature engineering: summing these binary columns into one stickiness measure.
 
