@@ -95,3 +95,13 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > - **Correlation with MonthlyCharges:** **0.634**
 
 > Customers who stay longer consistently generate higher cumulative revenue, as evidenced by the strong 0.77 correlation between tenure and Total Charges. This highlights that customer retention is not only a loyalty metric but also a key revenue driver, where extending customer relationships directly increases Customer Lifetime Value (CLV) and business profitability.
+
+4- Categorical Columns — Frequency Distribution (gender, SeniorCitizen, Partner, Dependents, PhoneService, PaperlessBilling)
+
+<img width="885" height="525" alt="image" src="https://github.com/user-attachments/assets/822c0f70-0b01-4e68-9b99-8797e79ff3fc" />
+
+> ### 💡 Business Insight
+> 
+>6 bar charts in a 2×3 grid. Gender: nearly 50/50 (male 50.3%, female 49.7%). SeniorCitizen: heavily skewed — only 11.4% senior. Partner: 52.1% have a partner. Dependents: only 30.3% have dependents. PhoneService: 93.9% have phone service. PaperlessBilling: 61.5% use paperless billing
+> Gender is nearly balanced — unlikely to be a strong churn predictor. (2) SeniorCitizen is imbalanced (88.6% non-senior) — we will check if bivariate analysis is statistically reliable for the 11.4% senior group. (3) Only 30% have dependents — dependents create switching friction (family plans), so this might reduce churn. (4) 93.9% phone service penetration means PhoneService binary adds little value — Service_Count is better
+
