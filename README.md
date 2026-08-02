@@ -154,3 +154,4 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 >
 > Service adoption rates showed all six add-ons have 25-45% adoption among internet customers — all are viable for bivariate analysis. Streaming services had the highest adoption (40.6%) while security had lower (~29%). This motivated my Service_Count feature engineering: summing these binary columns into one stickiness measure.
 
+10-
