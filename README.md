@@ -154,4 +154,74 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 >
 > Service adoption rates showed all six add-ons have 25-45% adoption among internet customers — all are viable for bivariate analysis. Streaming services had the highest adoption (40.6%) while security had lower (~29%). This motivated my Service_Count feature engineering: summing these binary columns into one stickiness measure.
 
-10-
+10- Service Count
+
+<img width="978" height="496" alt="image" src="https://github.com/user-attachments/assets/d45edd9b-5a91-4989-bb51-d65c54690613" />
+
+> ### 💡 Business Insight
+> The service count distribution confirms that most customers have 1-4 services — the low end of the spectrum. The fact that very few customers have 5+ services is an OPPORTUNITY: these high-stickiness customers are underrepresented but have the lowest churn. Driving more customers to 5+ services (through bundling) is the key retention lever.
+
+11- SeniorCitizen — Demographic Vulnerability SeniorCitizen (binary: 0=Non-Senior, 1=Senior)
+
+<img width="965" height="413" alt="image" src="https://github.com/user-attachments/assets/cb1fe536-0db7-4969-8e6c-f7a6a96aa734" />
+
+> ### 💡 Business Insight
+> Seniors represent only 11.4% of customers — a meaningful but minority group. The fact that seniors pay SLIGHTLY MORE than non-seniors suggests they are not in the cheapest tier. This makes the bivariate finding important: if senior churn is disproportionately high, it is not because they are avoiding high-cost services — it might be a service quality or usability issue.
+
+### bivariate Analysis
+
+1-Contract Type vs Churn
+
+<img width="964" height="440" alt="image" src="https://github.com/user-attachments/assets/c53a5040-f1f9-489a-8d31-3d1c450872c1" />
+
+> ### 💡 Business Insight
+> Panel 1: Month-to-month ~42.1% churn (red, well above average), One year ~5.8% (blue, below average), Two year ~1% (blue, well below average). Panel 2: Month-to-month has by far the highest revenue at risk ($121900+). The difference is stark and immediately visually obvious.
+> Month-to-month customers churn at 42.1% vs 1% for two-year — a difference. This is the single most powerful finding in the entire project. Business recommendation: offer targeted incentives to migrate month-to-month customers to annual contracts. Even converting 15% of month-to-month customers saves significant annual revenue. The revenue at risk panel quantifies exactly what is at stake.
+
+
+2-Tenure vs Churn
+
+<img width="969" height="334" alt="image" src="https://github.com/user-attachments/assets/eca40199-2028-4d8b-92b2-c4351fb41581" />
+
+> ### 💡 Business Insight
+> The raw churn rates fluctuated heavily across tenure values, so I used a rolling average to smooth noise and reveal the underlying churn trend more clearly.
+> Tenure bivariate analysis revealed churn as a first-year problem: 49% of new customers (0-12 months) churn vs 7% of loyal customers (36+ months). The KDE comparison showed churned customers have a median tenure of 10 months — they leave early. This recommended a Year-1 engagement programme with structured check-ins at months 3, 6, and 12.
+
+
+3- MonthlyCharges vs Churn
+
+<img width="959" height="375" alt="image" src="https://github.com/user-attachments/assets/a4cd6de8-17af-4735-b53d-f598842abb40" />
+
+> ### 💡 Business Insight
+> The boxplot revealed that churned customers had a noticeably higher median monthly charge and a wider IQR, indicating both higher pricing and greater variability among churned users
+> KDE: churned distribution shifts RIGHT — churned customers cluster more at 
+20. Box plot: churned median ~
+61 — a clear 
+30 has only ~3% churn, >
+20 more per month than retained customers. However: this relationship is CONFOUNDED by service type. Fiber Optic customers pay more AND churn more — so the charge-churn relationship may be partly explained by service type rather than price alone.
+
+
+4-InternetService vs Churn
+
+<img width="966" height="429" alt="image" src="https://github.com/user-attachments/assets/8cf05871-a137-43f3-af94-adcbc414b93b" />
+
+> ### 💡 Business Insight
+>Bar chart: Fiber Optic ~41.5% churn (way above average), DSL ~10.3% (slightly below average), No Internet ~1.4% (well below average). Revenue at risk panel: Fiber Optic dominates — representing 60%+ of total revenue at risk despite being only 44% of customers.
+> Fiber Optic customers churn at 41.5% and represent the majority of revenue at risk. This confirms the B3 MonthlyCharges finding: the high-charge, high-churn relationship is largely driven by Fiber Optic customers. Recommendation: a dedicated Fiber Optic retention programme — proactive value communication, tech support bundling, and early contract upgrade offers for Fiber Optic customers on month-to-month contracts.
+
+5- PaymentMethod vs Churn
+
+<img width="953" height="410" alt="image" src="https://github.com/user-attachments/assets/0a1692e1-9901-4ddd-a055-6a571751712d" />
+
+> ### 💡 Business Insight
+> Panel 1: Electronic check 48.9% churn (highest, red), Mailed check 8.0%, Credit card auto 6.9%, Bank transfer auto 7.7%. Panel 2: Auto-pay (7.3%) vs Manual payment (34%) — *5Times. The gap between auto and manual is enormous.
+>
+> Electronic check customers churn at 48.9% — the highest of any payment method. Auto-pay customers (bank transfer + credit card) churn at only ~16 %. The 2x differential between auto and manual payment is a clear engagement signal. Recommendation: at account setup, actively encourage auto-pay enrollment with a $5/month discount — this single intervention could reduce churn among the 56% of customers on manual payment.
+
+6- TechSupport vs Churn
+
+<img width="964" height="428" alt="image" src="https://github.com/user-attachments/assets/6c112653-6b35-4f1e-b725-c23331d909e0" />
+
+> ### 💡 Business Insight
+> Panel 1: Without tech support ~40.5% churn, With tech support ~9.6% churn — a massive 27 percentage point gap. Panel 2: the tech support effect holds within EACH contract type — confirming it is not just confounded by contract type.
+> Tech support has the largest WITHIN-SERVICE-TYPE effect of any binary service column: 40.5% churn without vs 9.6% with — across all contract types. Recommendation: actively upsell tech support to Fiber Optic customers on month-to-month contracts.
