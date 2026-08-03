@@ -225,3 +225,18 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > ### 💡 Business Insight
 > Panel 1: Without tech support ~40.5% churn, With tech support ~9.6% churn — a massive 27 percentage point gap. Panel 2: the tech support effect holds within EACH contract type — confirming it is not just confounded by contract type.
 > Tech support has the largest WITHIN-SERVICE-TYPE effect of any binary service column: 40.5% churn without vs 9.6% with — across all contract types. Recommendation: actively upsell tech support to Fiber Optic customers on month-to-month contracts.
+
+7- Service_Count vs Churn
+
+<img width="950" height="372" alt="image" src="https://github.com/user-attachments/assets/7b485396-0882-435f-a656-629ce4ff5a42" />
+
+> ### 💡 Business Insight
+> Dual-axis chart: churn rate LINE clearly decreases as service count increases — from ~35% at 0 services to ~2.1% at 8 services. Customer COUNT bars show most customers have 1-4 services. The stickiness hypothesis is confirmed: more services = significantly lower churn. Summary table shows the monotonic decrease
+> STICKINESS HYPOTHESIS CONFIRMED: churn drops from ~35% (0 services) to ~2.1% (8 services) monotonically. This validates the Service_Count feature engineering from Week 1. The most actionable recommendation: offer service bundle upgrades to high-risk customers with Service_Count <= 2.
+
+8- SeniorCitizen vs Churn
+
+<img width="970" height="433" alt="image" src="https://github.com/user-attachments/assets/52b78acc-5ddd-44cd-941e-c2ff97657387" />
+
+> ### 💡 Business Insight
+> Senior churn ~50%, Non-senior ~19% — significant 30pp gap. Panel 2: Within each contract type, senior churn is higher than non-senior but the gap narrows. Month-to-month: senior ~58%, non-senior ~43% — nearly 15% difference. The raw gap is partly confounded by seniors being more likely on month-to-month contracts.
