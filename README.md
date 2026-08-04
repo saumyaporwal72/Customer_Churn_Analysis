@@ -240,3 +240,43 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 > ### 💡 Business Insight
 > Senior churn ~50%, Non-senior ~19% — significant 30pp gap. Panel 2: Within each contract type, senior churn is higher than non-senior but the gap narrows. Month-to-month: senior ~58%, non-senior ~43% — nearly 15% difference. The raw gap is partly confounded by seniors being more likely on month-to-month contracts.
+
+9- Partner & Dependents vs Churn
+
+<img width="986" height="302" alt="image" src="https://github.com/user-attachments/assets/22bbc4c8-5ec1-48ae-a026-b837fe7d98e7" />
+
+
+> ### 💡 Business Insight
+> Panel 1: Without partner ~32.5% churn, With partner ~13.4% — 13pp gap. Panel 2: Without dependents ~29.1% churn, With dependents ~7.5% — 23pp gap. Panel 3: The lowest churn segment is Partner=Yes + Dependents=Yes . The highest is Partner=No + Dependents=No .
+> Family status creates clear switching friction. Customers with both a partner AND dependents on the account churn at only 12% — less than half the overall rate. Solo customers (no partner, no dependents) churn at 21% — 1 point above average Recommendation: when designing retention campaigns, deprioritise customers with dependents (they have natural retention factors). Focus on single customers with no family plan obligation
+
+10- Gender vs Churn
+
+<img width="732" height="502" alt="image" src="https://github.com/user-attachments/assets/71f1b841-0139-4b9d-b75c-6bff8203fa97" />
+
+> ### 💡 Business Insight
+> Gender shows NO significant relationship with churn (p > 0.05, difference < 1pp). This is an important negative finding: (1) Gender should receive low feature importance in the model — if it gets high importance, suspect data issues. (2) Retention campaigns should NOT be gender-targeted — waste of segmentation effort. (3) Confirms that our churn model is equitable across genders — no discriminatory patterns.
+
+11- PaperlessBilling vs Churn
+
+<img width="717" height="370" alt="image" src="https://github.com/user-attachments/assets/c6c15356-e1a5-4287-b6c7-0302dc7d3b43" />
+
+> ### 💡 Business Insight
+> Panel 1: Paperless billing YES 31.9% churn, NO 7.5% churn — a 24.4pp gap. Paperless billing customers churn MORE. Average charge is higher for paperless (
+47). Panel 2: The effect holds across contract types.
+> Counter-intuitive finding: paperless billing customers churn MORE than paper billing. Possible explanations: (1) Paperless customers are more digitally sophisticated — they comparison shop online and find alternatives easily. (2) They tend to have higher monthly charges (they correlate with Fiber Optic). (3) Paper bills create inertia — physical reminders keep you thinking about the service. This is a nuanced finding that requires careful interpretation before recommending 'push more customers to paperless
+
+### Multi-Factor Segment Analysis
+
+<img width="732" height="330" alt="image" src="https://github.com/user-attachments/assets/73e7c072-82e5-4cbe-8471-a24080d0c6dc" />
+
+> ### 💡 Business Insight
+> Heatmap: Month-to-month + Fiber Optic = the darkest red cell (~55% churn). Two-year contracts are all green regardless of internet type. Revenue at risk chart: Month-to-month + Fiber Optic is the #1 segment by far. Month-to-month + DSL is #2.
+> The HIGHEST RISK COMBINATION is Month-to-month + Fiber Optic — the intersection of the most flexible contract AND the most expensive service. This segment represents the single largest block of revenue at risk. The retention team should call these customers first. The specific offer: 'Upgrade to annual contract + Tech Support bundle at 15% discount.' This one segment drives the primary recommendation of the entire project
+
+## Revenue at Risk — Executive Summary Chart
+
+<img width="734" height="290" alt="image" src="https://github.com/user-attachments/assets/39e4dee8-a12e-4657-9e95-a63db450ad46" />
+
+> ### 💡 Business Insight
+> Panel 1: Month-to-month contract represents 93%+ of total revenue at risk. Panel 2: Fiber Optic represents 91%+ of total revenue at risk. Panel 3: Combined programme (contract upgrade + auto-pay + tech support bundling) estimated to save 25% of at-risk revenue. Total annual revenue at risk: approximately $1.3-1.5M.
