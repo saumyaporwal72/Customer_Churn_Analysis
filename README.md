@@ -259,7 +259,8 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 11- PaperlessBilling vs Churn
 
-<img width="717" height="370" alt="image" src="https://github.com/user-attachments/assets/c6c15356-e1a5-4287-b6c7-0302dc7d3b43" />
+<img width="1103" height="485" alt="image" src="https://github.com/user-attachments/assets/5ed4249b-f834-419d-b076-4b59a962eb8f" />
+
 
 > ### 💡 Business Insight
 > Panel 1: Paperless billing YES 31.9% churn, NO 7.5% churn — a 24.4pp gap. Paperless billing customers churn MORE. Average charge is higher for paperless (
@@ -268,7 +269,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 ### Multi-Factor Segment Analysis
 
-<img width="732" height="330" alt="image" src="https://github.com/user-attachments/assets/73e7c072-82e5-4cbe-8471-a24080d0c6dc" />
+<img width="1119" height="486" alt="image" src="https://github.com/user-attachments/assets/d211f972-1347-49e2-a476-4cbc16e2502b" />
 
 > ### 💡 Business Insight
 > Heatmap: Month-to-month + Fiber Optic = the darkest red cell (~55% churn). Two-year contracts are all green regardless of internet type. Revenue at risk chart: Month-to-month + Fiber Optic is the #1 segment by far. Month-to-month + DSL is #2.
@@ -276,7 +277,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 ## Revenue at Risk — Executive Summary Chart
 
-<img width="734" height="290" alt="image" src="https://github.com/user-attachments/assets/39e4dee8-a12e-4657-9e95-a63db450ad46" />
+<img width="1100" height="433" alt="image" src="https://github.com/user-attachments/assets/ae793212-c6d9-4839-a050-3c6497ae8b15" />
 
 > ### 💡 Business Insight
 > Panel 1: Month-to-month contract represents 93%+ of total revenue at risk. Panel 2: Fiber Optic represents 91%+ of total revenue at risk. Panel 3: Combined programme (contract upgrade + auto-pay + tech support bundling) estimated to save 25% of at-risk revenue. Total annual revenue at risk: approximately $1.3-1.5M.
