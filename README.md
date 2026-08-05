@@ -284,7 +284,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 ### Overall Key Business Insights
 
-💡 Executive Business Insights
+
 
 > Customer retention is the biggest revenue driver. Customers with longer tenure generate significantly higher lifetime revenue, with Total Charges strongly correlated with Tenure (r = 0.77). Improving retention directly increases Customer Lifetime Value (CLV).
 > 
@@ -301,3 +301,37 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > Demographics play a limited role. Gender has no statistically meaningful relationship with churn, indicating that retention efforts should focus on customer behavior, contract type, pricing, and service usage rather than demographic segmentation.
 > 
 > The highest-risk customer segment is clear. Customers on Month-to-Month contracts using Fiber Optic services represent the single largest concentration of churn and revenue risk. This segment should be the primary focus of targeted retention campaigns.
+
+ ###  Business Recommendations
+ 
+1. Improve Customer Onboarding
+> Focus on customers during their first year, as this is when most churn happens.
+> Send welcome emails, product guides, and regular follow-ups to keep new customers engaged.
+>
+2. Encourage Long-Term Contracts
+> Offer discounts or rewards to encourage Month-to-Month customers to switch to 1-year or 2-year plans.
+> Longer contracts help improve customer retention.
+> 
+3. Focus on Fiber Optic Customers
+> Fiber Optic customers have the highest churn rate.
+> Improve service quality, provide faster support, and offer special retention deals to this group.
+> 
+4. Promote More Services
+> Encourage customers to subscribe to additional services such as Tech Support, Online Security, or Streaming.
+> Customers using more services are less likely to leave.
+> 
+5. Increase Auto-Pay Adoption
+> Encourage customers using Electronic Check to switch to Auto-Pay by offering small discounts or cashback.
+> Auto-Pay customers have better retention.
+> 
+6. Target High-Risk Customers
+> Identify customers with Month-to-Month contracts, Fiber Optic service, and few subscribed services.
+>Reach out to them with personalized offers before they decide to leave.
+> 
+7. Build Customer Loyalty
+> Reward long-term customers with loyalty points, exclusive offers, or renewal discounts.
+> This helps increase customer satisfaction and reduces churn.
+> 
+8. Use Data to Predict Churn
+> Build a churn prediction model to identify customers who are likely to leave.
+> Contact these customers early with personalized retention campaigns
