@@ -281,3 +281,15 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 
 > ### 💡 Business Insight
 > Panel 1: Month-to-month contract represents 93%+ of total revenue at risk. Panel 2: Fiber Optic represents 91%+ of total revenue at risk. Panel 3: Combined programme (contract upgrade + auto-pay + tech support bundling) estimated to save 25% of at-risk revenue. Total annual revenue at risk: approximately $1.3-1.5M.
+
+### Overall Key Business Insights
+
+💡 Executive Business Insights
+-- Customer retention is the biggest revenue driver. Customers with longer tenure generate significantly higher lifetime revenue, with Total Charges strongly correlated with Tenure (r = 0.77). Improving retention directly increases Customer Lifetime Value (CLV).
+-- Month-to-month customers represent the highest business risk. With a 42.1% churn rate, they account for the majority of customers and revenue at risk, making contract migration the highest-impact retention strategy.
+-- The first year is the critical churn period. Nearly 49% of customers in their first 12 months churn, emphasizing the need for stronger onboarding, proactive engagement, and early customer success programs.
+-- Fiber Optic customers are the most valuable yet the most vulnerable. Despite generating higher monthly revenue, they exhibit the highest churn rate (41.5%) and contribute the largest share of revenue at risk, making them a priority for retention initiatives.
+-- Customer engagement significantly reduces churn. Customers with Tech Support, multiple subscribed services, and automatic payment methods consistently show much lower churn rates, indicating that service adoption and convenience strengthen customer loyalty.
+-- Family relationships improve retention. Customers with partners and dependents are substantially less likely to churn, suggesting that bundled or family-oriented offerings naturally increase switching costs and long-term loyalty.
+-- Demographics play a limited role. Gender has no statistically meaningful relationship with churn, indicating that retention efforts should focus on customer behavior, contract type, pricing, and service usage rather than demographic segmentation.
+-- The highest-risk customer segment is clear. Customers on Month-to-Month contracts using Fiber Optic services represent the single largest concentration of churn and revenue risk. This segment should be the primary focus of targeted retention campaigns.
