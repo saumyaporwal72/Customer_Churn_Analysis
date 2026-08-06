@@ -168,7 +168,7 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > ### 💡 Business Insight
 > Seniors represent only 11.4% of customers — a meaningful but minority group. The fact that seniors pay SLIGHTLY MORE than non-seniors suggests they are not in the cheapest tier. This makes the bivariate finding important: if senior churn is disproportionately high, it is not because they are avoiding high-cost services — it might be a service quality or usability issue.
 
-### bivariate Analysis
+### Bivariate Analysis
 
 1-Contract Type vs Churn
 
