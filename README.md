@@ -337,10 +337,9 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 > Contact these customers early with personalized retention campaigns
 
 
-
 # 📂 Dataset
 
-This project uses a **Customer Churn** dataset containing customer demographics, account information, subscribed services, billing details, and churn status. The dataset was imported into **MySQL** for SQL-based analysis and further explored using Python for EDA.
+This project uses a **Customer Churn** dataset containing customer demographics, account information, subscribed services, billing details, and churn status. The dataset was imported into **MySQL** for SQL-based analysis.
 
 ## 📊 Dataset Overview
 
