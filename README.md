@@ -335,3 +335,61 @@ The EDA phase focuses on understanding customer behavior, identifying churn patt
 8. Use Data to Predict Churn
 > Build a churn prediction model to identify customers who are likely to leave.
 > Contact these customers early with personalized retention campaigns
+
+
+
+# 📂 Dataset
+
+This project uses a **Customer Churn** dataset containing customer demographics, account information, subscribed services, billing details, and churn status. The dataset was imported into **MySQL** for SQL-based analysis and further explored using Python for EDA.
+
+## 📊 Dataset Overview
+
+| Attribute | Details |
+|-----------|---------|
+| Dataset Name | Customer Churn Dataset |
+| Total Records | 594,194 |
+| Total Features | 21 |
+| Database | MySQL |
+| File Format | CSV |
+| Target Variable | Churn |
+
+---
+
+## 🗂️ SQL Table Schema
+
+```sql
+customer_churn
+```
+
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| customerID | VARCHAR | Unique customer identifier |
+| gender | VARCHAR | Customer gender |
+| SeniorCitizen | INT | Senior citizen (0 = No, 1 = Yes) |
+| Partner | VARCHAR | Whether the customer has a partner |
+| Dependents | VARCHAR | Whether the customer has dependents |
+| tenure | INT | Number of months the customer has stayed |
+| PhoneService | VARCHAR | Phone service subscription |
+| MultipleLines | VARCHAR | Multiple phone lines |
+| InternetService | VARCHAR | Type of internet service |
+| OnlineSecurity | VARCHAR | Online security subscription |
+| OnlineBackup | VARCHAR | Online backup subscription |
+| DeviceProtection | VARCHAR | Device protection subscription |
+| TechSupport | VARCHAR | Tech support subscription |
+| StreamingTV | VARCHAR | Streaming TV subscription |
+| StreamingMovies | VARCHAR | Streaming movies subscription |
+| Contract | VARCHAR | Contract type |
+| PaperlessBilling | VARCHAR | Paperless billing status |
+| PaymentMethod | VARCHAR | Customer payment method |
+| MonthlyCharges | DECIMAL | Monthly subscription charges |
+| TotalCharges | DECIMAL | Total amount charged |
+| Churn | VARCHAR | Customer churn status (Yes/No) |
+
+---
+
+## 🎯 Target Variable
+
+**Churn**
+
+- **1** → Customer has left the company.
+- **0** → Customer is still an active customer.
